@@ -17,7 +17,6 @@ scalaVersion := "2.13.1"
 licenses := Seq("Apache License version 2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0.txt"))
 
 libraryDependencies ++= Seq(
-    "org.slf4j" % "slf4j-log4j12" % "1.7.29" % "provided",
     "com.scleradb" %% "sclera-core" % "4.0-SNAPSHOT" % "provided"
 )
 
